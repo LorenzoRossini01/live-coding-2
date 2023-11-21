@@ -1,0 +1,90 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://www.cnarredamento.it/wp-content/uploads/rovere-naturale.jpg);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    line-height: 150px;
+}
+
+.main-title{
+    display: inline;
+    vertical-align: middle;
+}
+
+.main-logo{
+    height: 100px;
+    vertical-align: middle;
+}
+
+.form-button{
+    padding: 10px;
+}
+
+.form-input{
+    padding: 10px;
+}
+
+.search-bar{
+    border-top: 3px solid white;
+    padding-top: 25px;
+}
+
+.yellow-circle{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: gold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    font-size: 3rem;
+    color: white;
+}
+
+.unreaded{
+    border-bottom: 3px solid white;
+    padding-bottom: 25px;
+}
+main{
+    margin-top: 25px;
+}
+
+ul{
+    margin-top: 25px;
+}
+
+li{
+    list-style: none;
+}
+
+.mail-row{
+    background-color: rgb(207, 207, 207);
+    border: 1px solid black;
+    line-height: 2rem;
+    vertical-align: middle;
+    padding: 0 15px;
+}
+
+.text-muted{
+    color: rgb(126, 126, 126);
+    padding-left: 150px;
+}
+
+.mail-row:hover{
+    background-color: white;
+}
